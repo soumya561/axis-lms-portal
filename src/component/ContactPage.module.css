@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundcontactpage{
+    width: 50%;
+    height: 100%;
+    margin-top: 30px;
+    background-position: center;
+    background-image: url("https://st.depositphotos.com/1268628/3107/i/600/depositphotos_31078871-stock-photo-contact-us.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    filter: blur(4px);
+    padding-top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+.contactUs
+{
+    color: rgb(7, 7, 7);
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.contactUs .title h2
+{
+    padding: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.contactUs .box
+{
+    position: relative;
+}
+
+.form 
+{
+grid-area: form;
+
+
+}
+.infobox
+{
+    grid-area: info;
+}
+.map
+{
+    grid-area: map;
+}
+.contact
+{
+padding: 40px;
+background: rgb(224, 233, 232);
+}
+.box
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+     "form contactinfo"
+     "form contactmap";
+   
+     
+}
+
+.contactform{
+
+    background-color: rgb(97, 95, 95);
+    padding: 90px;
+    width:600px;
+    height:max-content;
+    border: 5px solid rgb(164,34,77);
+  border-radius: 25px;
+ 
+
+}
+
+.contactinfo{
+
+background-color: rgb(13, 12, 13);
+padding: 35px;
+height:min-content;
+width: 600px;
+color: white;
+border: 5px solid rgb(164, 34, 77);
+border-radius: 25px;
+
+}
+
+.contactmap{
+ 
+   
+    object-fit: full;
+    border: 0px solid rgb(202, 194, 194);
+    
+
+}
+
